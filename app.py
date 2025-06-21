@@ -12,11 +12,11 @@ else:
 with col1:
     Age = st.number_input("Age")
 with col2:
-    Height = st.number_input("Height")
+    Height = st.number_input("Height(cms)")
 with col1:
-    Weight = st.number_input("Weight")
+    Weight = st.number_input("Weight(kgs)")
 with col2:
-    Duration = st.number_input("Duration")
+    Duration = st.number_input("Duration(mins)")
 with col1:
     Heart_rate = st.number_input("Heart Rate")
 with col2:
