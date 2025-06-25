@@ -55,17 +55,17 @@ These datasets were merged on User_ID to create a complete training set. The pip
 
 ---
 
-### 🏋️ Model Performance
+### 2. 🏋️ Model Performance
 The final model achieved a **Root Mean Squared Error (RMSE)** of **4.26**, indicating strong predictive accuracy for calorie estimation.
 
 ---
 
-### 2. 💾 Model Serialization with Pickle
+### 3. 💾 Model Serialization with Pickle
 The trained XGBoost model is saved using Python’s `pickle` module, allowing quick loading of the model for inference without retraining.
 
 ---
 
-### 3. 🖥️ Interactive UI with Streamlit
+### 4. 🖥️ Interactive UI with Streamlit
 The Streamlit app provides a simple, user-friendly interface to input data such as age, weight, height, activity type, and duration, returning real-time calorie predictions based on the model.
 
 ---
