@@ -1,18 +1,16 @@
 # XGBoost-Calorie-Predictor
 ## 📘 Overview
-This project implements a machine learning-based calorie prediction system that estimates calorie expenditure based on user input data. The system uses an XGBoost regression model trained on a Kaggle dataset, serialized with Pickle, and wrapped in a Streamlit web app for interactive, real-time predictions.
-
-Developed in August 2024, this project demonstrates an end-to-end ML pipeline including training, serialization, and a web-based UI for inference.
+XGBoost-Calorie-Predictor is a **machine learning project** developed in *August 2024* that **estimates calorie expenditure** based on user input data. Leveraging an **XGBoost regression model** trained on a **Kaggle dataset**, the system features end-to-end functionality from data processing and model training to serialization and deployment within an **interactive Streamlit web application** for real-time predictions.
 
 ## 🎯 Motivation
 Accurate calorie prediction is essential for fitness tracking, diet planning, and health monitoring. This project demonstrates a practical pipeline for training, saving, and deploying a calorie prediction model, making calorie estimation accessible and user-friendly through a web interface.
 
-## Features
-- Predicts calories burnt from user input
-- Model trained using **XGBoost Regressor**
-- Root Mean Squared Error (RMSE): **4.26**
-- **Streamlit UI** for interactive predictions
-- Pickle used for saving and loading the trained model
+## 💡 Features
+- 🔥 Predicts calories burnt from user input
+- 🚀 Model trained using **XGBoost Regressor**
+- 🎯 Root Mean Squared Error (RMSE): **4.26**
+- ⚡ **Streamlit UI** for interactive predictions
+- 💾 Pickle used for saving and loading the trained model
 
 ## ⚙️ Getting Started
 
@@ -47,7 +45,7 @@ Once running, the app will open in your browser at http://localhost:8501, where 
 
 ## 🛠️ Implementation Journey
 
-### 📊 Data Preparation and Model Training
+### 1. 📊 Data Preparation and Model Training
 
 The model was trained using two CSV files:
 - **Exercise data**: Contains user information and exercise metrics including `User_ID`, `Gender`, `Age`, `Height`, `Weight`, `Duration`, `Heart_Rate`, and `Body_Temp`.
@@ -62,12 +60,12 @@ The final model achieved a **Root Mean Squared Error (RMSE)** of **4.26**, indic
 
 ---
 
-### 💾 Model Serialization with Pickle
+### 2. 💾 Model Serialization with Pickle
 The trained XGBoost model is saved using Python’s `pickle` module, allowing quick loading of the model for inference without retraining.
 
 ---
 
-### 🖥️ Interactive UI with Streamlit
+### 3. 🖥️ Interactive UI with Streamlit
 The Streamlit app provides a simple, user-friendly interface to input data such as age, weight, height, activity type, and duration, returning real-time calorie predictions based on the model.
 
 ---
