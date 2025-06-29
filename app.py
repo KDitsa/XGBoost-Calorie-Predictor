@@ -3,9 +3,9 @@ import streamlit as st
 import pickle
 import numpy as np
 
-st.set_page_config(page_title="Calorie Burn Predictor", layout="centered")
-st.title("Calorie Burn Predictor")
-st.markdown("Estimate the number of calories burned based on your physical data and activity session.")
+st.set_page_config(page_title="AI-Powered Calorie Burn Calculator", layout="centered")
+st.title("🔥 AI-Powered Calorie Burn Calculator")
+st.markdown("Estimate your calorie expenditure based on your physical data and activity session.")
 
 st.subheader("Personal Information")
 # Gender Input
