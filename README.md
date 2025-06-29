@@ -1,4 +1,4 @@
-# XGBoost-Calorie-Predictor
+# 🏃🏻‍♀️ XGBoost Calorie Predictor
 ## 📘 Overview
 XGBoost-Calorie-Predictor is a **machine learning project** developed in *August 2024* that **estimates calorie expenditure** based on user input data. Leveraging an **XGBoost regression model** trained on a **Kaggle dataset**, the system features end-to-end functionality from data processing and model training to serialization and deployment within an **interactive Streamlit web application** for real-time predictions.
 
